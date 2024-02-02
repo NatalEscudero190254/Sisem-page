@@ -5,9 +5,9 @@ import MenuIcon from "./Icons/MenuIcon";
 
 const Header = () => {
   return (
-    <header className="flex justify-between text-center items-center w-full p-8 px-10 border border-transparent shadow-md static ">
+    <header className="flex justify-between text-center items-center w-full  p-8 px-10 border border-transparent shadow-md static ">
       <a href="">
-        <img src={Logosisem} alt="" className="w-30 max-w-20" />
+        <img src={Logosisem} alt="" className="w-30 max-w-20" loading="lazy" />
       </a>
       <nav className="flex flex-row gap-16 decoration-0 text-sm font-semibold text-pretty">
         <a href="#" className="hover:text-blue-700 ">

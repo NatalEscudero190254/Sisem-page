@@ -13,6 +13,7 @@ const MenuIcon = () => {
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"
+      className="lg:hidden"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 6l16 0" />
