@@ -26,6 +26,13 @@ function App() {
             background={"bg-gradient-to-r from-indigo-500 to-sky-300 "}
           />
         </section>
+
+        <section className="w-full mx-auto pb-24 py-60 text-center justify-center">
+          <h2 className="text-blue-700 md:text-4xl lg:text-4xl font-bold lg:pb-10 justify-center items-center text-center ">
+            Soluciones tecnologicas <br></br>para cada experiencia
+          </h2>
+          <div className="grid grid-cols-10 auto-rows-[20rem] gap-2 mx-auto"></div>
+        </section>
       </main>
     </>
   );

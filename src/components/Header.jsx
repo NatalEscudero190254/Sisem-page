@@ -9,7 +9,7 @@ const Header = () => {
       <a href="">
         <img src={Logosisem} alt="" className="w-30 max-w-20" loading="lazy" />
       </a>
-      <nav className="flex flex-row gap-16 decoration-0 text-sm font-semibold text-pretty">
+      <nav className="flex flex-row gap-16 decoration-0 text-sm font-semibold text-pretty tracking-widest">
         <a href="#" className="hover:text-blue-700 ">
           SOLUCIONES
         </a>
