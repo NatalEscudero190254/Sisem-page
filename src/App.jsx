@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import pioneros from "./assets/pioneros-2.jpg";
 import SocialButton from "./components/SocialButton";
+import logobackground from "./assets/Fondo-misce2.png";
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
             Soluciones tecnologicas <br></br>para cada experiencia
           </h2>
           <div className="grid grid-cols-10 auto-rows-[20rem] gap-2 mx-auto"></div>
+          <img
+            src={logobackground}
+            alt="Fondo misce 2"
+            className="absolute top-[47rem]"
+          />
         </section>
       </main>
     </>
