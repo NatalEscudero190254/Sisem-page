@@ -2,9 +2,9 @@ import React from "react";
 
 const CardItem = ({ img }) => {
   return (
-    <a href="">
-      <img src={img} alt="" loading="lazy" />
-    </a>
+    <div className=" w-[400px] h-[400px]   ">
+      <img src={img} alt="Services images" loading="lazy" />
+    </div>
   );
 };
 
