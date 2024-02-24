@@ -17,6 +17,7 @@ import claro from "./assets/claro.jpg";
 import galicia from "./assets/galicia.jpg";
 import macro from "./assets/macro.jpg";
 import raizen from "./assets/raizen.jpg";
+import Footer from "./components/Footer";
 
 function App() {
   const servicesImages = [
@@ -118,6 +119,7 @@ function App() {
             })}
           </div>
         </section>
+        <Footer />
       </main>
     </>
   );
