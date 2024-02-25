@@ -92,7 +92,7 @@ function App() {
             <div>
               <SocialButton
                 content={"SOLICITAR UN DEMO"}
-                background={"bg-gradient-to-r from-indigo-500 to-sky-300 "}
+                background={"bg-gradient-to-r from-blue-800 to-pink-500 "}
               />
             </div>
             <p className="text-2xl text-pretty font-bold tracking-wide text-blue-600">
@@ -101,7 +101,7 @@ function App() {
             <div>
               <SocialButton
                 content={"ACCEDÉ A LA SOLUCION"}
-                background={"bg-gradient-to-r from-indigo-500 to-sky-300 "}
+                background={"bg-gradient-to-r from-yellow-300 to-blue-800 "}
               />
             </div>
           </div>
