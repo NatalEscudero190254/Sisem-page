@@ -5,7 +5,7 @@ import MenuIcon from "./Icons/MenuIcon";
 
 const Header = () => {
   return (
-    <header className="flex justify-around text-center items-center w-full  p-8 px-10 border border-transparent shadow-md static ">
+    <header className="flex justify-around text-center items-center w-full p-8 px-10 border border-transparent shadow-md fixed bg-white z-30">
       <a href="">
         <img src={Logosisem} alt="" className="w-30 max-w-20" loading="lazy" />
       </a>

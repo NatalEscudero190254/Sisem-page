@@ -40,7 +40,6 @@ function App() {
   return (
     <>
       <main>
-        <Header />
         <section className="w-full mx-auto pb-24 py-60 text-center justify-center">
           {/* <div className="absolute z-10 bottom-0 top-0 w-full h-[760px] bg-gradient-to-b from-transparent from-40% via-black/50 to-black"></div> */}
           <div className="flex flex-col justify-center items-center text-start">
@@ -60,7 +59,7 @@ function App() {
           />
         </section>
 
-        <section className="w-full mx-auto pb-24 py-20 flex flex-col  items-center">
+        <section className="w-full mx-auto pb-24 py-40 flex flex-col  items-center">
           <h2 className="text-blue-700 md:text-4xl lg:text-4xl font-bold lg:pb-20 justify-center items-center text-center tracking-wide ">
             Soluciones tecnologicas <br></br>para cada experiencia
           </h2>
@@ -113,13 +112,12 @@ function App() {
           <h6 className="text-blue-600 font-bold tracking-wide">
             ALGUNOS DE NUESTROS CLIENTES, A QUIENES POTENCIAMOS
           </h6>
-          <div className="flex flex-row gap-16 p-8">
+          <div className="flex flex-row gap-28 p-8">
             {clientsImages?.map((e) => {
               return <img src={e.img}></img>;
             })}
           </div>
         </section>
-        <Footer />
       </main>
     </>
   );
