@@ -43,7 +43,7 @@ function App() {
         <section className="w-full mx-auto pb-24 py-60 text-center justify-center">
           {/* <div className="absolute z-10 bottom-0 top-0 w-full h-[760px] bg-gradient-to-b from-transparent from-40% via-black/50 to-black"></div> */}
           <div className="flex flex-col justify-center items-center text-start">
-            <h1 className="dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row lg:pb-10 justify-center items-center z-20 text-start tracking-wide mb-10">
+            <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row lg:pb-10 justify-center items-center z-20 text-start tracking-wide mb-10">
               Soluciones tecnologicas <br /> para gestion legal y <br />{" "}
               documental corporativa
             </h1>
@@ -65,11 +65,7 @@ function App() {
           </h2>
           <div className="flex flex-wrap w-full justify-center gap-3">
             {servicesImages?.map((e) => {
-              return (
-                <a href="" key={e.id}>
-                  <CardItem img={e.img} />
-                </a>
-              );
+              return <CardItem img={e.img} />;
             })}
           </div>
 
